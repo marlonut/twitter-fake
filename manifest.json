@@ -1,13 +1,6 @@
 {
-  "short_name":"Twittor",
   "name":"Twitter falso",
-  "start_url":"./",
-  "lang":"en-US",
-  "background_color":"#3498db",
-  "theme_color": "#317EFB",
-  "display":"standalone",
-  "orientation":"portrait",
-  "description":"twitter copia",
+  "short_name":"Twittor",
   "icons":[
     {
     "src":"./img/icons/icon-72x72.png",
@@ -49,5 +42,10 @@
     "type":"image/png",
     "sizes":"512x512"
     }
-  ]
+  ],
+  "lang":"en-US",
+  "start_url":"./",
+  "display":"standalone",
+  "background_color":"#3498db",
+  "theme_color": "#317EFB"
 }
