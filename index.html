@@ -3,24 +3,19 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="MobileOptimized" content="width">
-    <meta name="HandheldFriendly" content="true">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="theme-color" content="#317EFB">
     <title>Twittor</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="theme-color" content="#317EFB">
+    <link rel="apple-touch-icon" href="./img/icons/icon-192x192.png"> 
     <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" />
-<link rel="apple-touch-icon" href="./img/icons/icon-192x192.png"> 
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/animate.css" />
-
-    <link rel="shortcut icon" type="image/ico" href="./img/favicon.ico" />
-    <link rel="manifest" href="./manifest.json" />
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
 
 </head>
 
@@ -35,7 +30,7 @@
 
     <!-- Modal -->
     <div id="modal" class="oculto">
-        <img id="modal-avatar" src="img/avatars/spiderman.jpg" />
+        <img id="modal-avatar" src="./img/avatars/spiderman.jpg" />
 
         <span class="first">
             <span id="titulo-modal">Nuevo mensaje</span>
@@ -65,23 +60,23 @@
     <!-- Seleccion de personaje -->
     <div id="seleccion" class="seleccion animated fadeIn fast" align="center">
         <div>
-            <img data-user="spiderman" src="img/avatars/spiderman.jpg" alt="spiderman" class="seleccion-avatar" />
+            <img data-user="spiderman" src="./img/avatars/spiderman.jpg" alt="spiderman" class="seleccion-avatar" />
         </div>
 
         <div>
-            <img data-user="ironman" src="img/avatars/ironman.jpg" alt="ironman" class="seleccion-avatar" />
+            <img data-user="ironman" src="./img/avatars/ironman.jpg" alt="ironman" class="seleccion-avatar" />
         </div>
 
         <div>
-            <img data-user="wolverine" src="img/avatars/wolverine.jpg" alt="wolverine" class="seleccion-avatar" />
+            <img data-user="wolverine" src="./img/avatars/wolverine.jpg" alt="wolverine" class="seleccion-avatar" />
         </div>
 
         <div>
-            <img data-user="thor" src="img/avatars/thor.jpg" alt="thor" class="seleccion-avatar" />
+            <img data-user="thor" src="./img/avatars/thor.jpg" alt="thor" class="seleccion-avatar" />
         </div>
 
         <div>
-            <img data-user="hulk" src="img/avatars/hulk.jpg" alt="hulk" class="seleccion-avatar" />
+            <img data-user="hulk" src="./img/avatars/hulk.jpg" alt="hulk" class="seleccion-avatar" />
         </div>
     </div>
 
@@ -92,7 +87,7 @@
         <!-- Mensaje -->
         <li class="animated fadeIn fast">
             <div class="avatar">
-                <img src="img/avatars/spiderman.jpg" />
+                <img src="./img/avatars/spiderman.jpg" />
             </div>
             <div class="bubble-container">
                 <div class="bubble">
@@ -108,8 +103,8 @@
     </ul>
     <!-- Fin Lista de mensajes -->
 
-    <script src="js/libs/jquery.js"></script>
-    <script src="js/app.js" type="module"></script>
+    <script src="./js/libs/jquery.js"></script>
+    <script src="./js/app.js" type="module"></script>
 </body>
 
 </html>
