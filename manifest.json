@@ -1,9 +1,8 @@
 {
   "short_name":"Twittor",
   "name":"Twitter falso",
-  "start_url":"./?utm_source=web_app_manifest",
-  "scope":"./",
-  "lang":"es-ES",
+  "start_url":"./",
+  "lang":"en-US",
   "background_color":"#3498db",
   "theme_color": "#317EFB",
   "display":"standalone",
@@ -49,12 +48,6 @@
     "src":"./img/icons/icon-512x512.png",
     "type":"image/png",
     "sizes":"512x512"
-    },{
-       
-    "src":"./img/icons/icon-48.png",
-    "type":"image/png",
-    "sizes":"48x48",
-    "purpose":"maskable"
     }
   ]
 }
